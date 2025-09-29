@@ -12,3 +12,50 @@ img,
 video {
   display: block;
 }
+
+body {
+background: #E9E9E9;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+padding: 20px 50px;
+}
+
+.menu {
+background: white;
+display: flex;
+padding: 20px 30px;
+align-items: flex-start;
+gap: 20px;
+border-radius: 32px;
+}
+
+.language {
+background: white;
+display: flex;
+width: 64px;
+height: 64px;
+justify-content: center;
+align-items: center;
+border-radius: 32px;
+}
+
+.contact {
+  background: white;
+display: flex;
+width: 64px;
+height: 64px;
+justify-content: center;
+align-items: center;
+border-radius: 32px;
+}
